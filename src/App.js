@@ -13,16 +13,18 @@ function App() {
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </nav>
+        <a href="/resume.pdf" download className="resume-btn">📄 Download Resume</a>
       </header>
 
       {/* ===== ABOUT ===== */}
       <section id="about" className="about">
         <h2>About Me</h2>
         <p>
-          Third-year Software Engineering student at the University of Calgary 
-          with hands-on experience in full-stack development, LLM integration, and network systems. 
-          Built an AI-powered music recommender using React, Flask, and Groq LLM. 
-          Proven collaborator in Agile teams with strong documentation and problem-solving skills.
+          I'm a fourth-year Software Engineering student at the University of Calgary who loves 
+          building things that solve real problems. Recently, I built an AI-powered Afrobeats 
+          recommender using React, Flask, and Groq LLM — combining my passion for music with 
+          full-stack development. I thrive in collaborative Agile teams and enjoy turning 
+          complex ideas into clean, working products.
         </p>
       </section>
 
@@ -44,15 +46,16 @@ function App() {
           </div>
         </div>
 
-        {/* Project 2: Interactive Fluoride Awareness Webpage */}
+        {/* Project 2: Software Testing Project */}
         <div className="project-card">
-          <h3>🦷 Interactive Fluoride Awareness Webpage</h3>
+          <h3>🧪 Software Testing Project</h3>
           <p>
-            Led front-end engineering for an interactive 3D model web app on the impact of fluoride on teeth 
-            for university-aged students. Generated 50+ users and increased fluoride awareness by 15%.
-            Applied Agile methodology with weekly sprints and task tracking.
+            Developed a 15+ page formal test plan covering boundary conditions, special cases, 
+            and 10+ user workflows. Executed 20+ automated test cases using Selenium IDE and 
+            15+ manual scripted tests, achieving 95% test coverage. Identified and reported 
+            8 critical defects before production, saving 10+ hours of debugging time.
           </p>
-          <p><strong>Tech:</strong> React.js, 3D Modeling, Agile, CSS</p>
+          <p><strong>Tech:</strong> Selenium IDE, Test Planning, Manual Testing, Agile, Unit Testing, GUI Testing</p>
         </div>
 
         {/* Project 3: Stock Advisor */}
@@ -80,33 +83,39 @@ function App() {
 
       {/* ===== SKILLS ===== */}
       <section id="skills" className="skills">
-        <h2>Skills</h2>
-        <div className="skill-list">
-          <span>React</span>
-          <span>JavaScript</span>
-          <span>Python</span>
-          <span>Flask</span>
-          <span>C#</span>
-          <span>Unity</span>
-          <span>Java</span>
-          <span>C++</span>
-          <span>SQL</span>
-          <span>Git</span>
-          <span>REST APIs</span>
-          <span>LLM Integration</span>
-          <span>Agile</span>
-          <span>HTML/CSS</span>
-          <span>VS Code</span>
-        </div>
+      <h2>Skills</h2>
+      <div className="skill-list">
+        <span>React</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Flask</span>
+        <span>C#</span>
+        <span>Unity</span>
+        <span>Java</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>Git</span>
+        <span>REST APIs</span>
+        <span>LLM Integration</span>
+        <span>Selenium</span>
+        <span>Node.js</span>
+        <span>NumPy</span>
+        <span>Pandas</span>
+        <span>Linux</span>
+        <span>Azure DevOps</span>
+        <span>Agile</span>
+        <span>HTML/CSS</span>
+        <span>VS Code</span>
+      </div>
       </section>
 
       {/* ===== CONTACT ===== */}
       <section id="contact" className="contact">
         <h2>Contact</h2>
-        <p>📧 <a href="mailto:makochukwu.ifiora1@ucalgary.ca">makochukwu.ifiora1@ucalgary.ca</a></p>
+        <p>📧 <a href="mailto:makochukwu.ifiora1@ucalgary.ca">Email</a></p>
         <p>📞 (587) 581-8037</p>
-        <p>🐙 <a href="https://github.com/itsmakky" target="_blank" rel="noopener noreferrer">github.com/itsmakky</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/makochukwuifiorah" target="_blank" rel="noopener noreferrer">linkedin.com/in/makochukwuifiorah</a></p>
+        <p>🐙 <a href="https://github.com/itsmakky" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>🔗 <a href="https://www.linkedin.com/in/makochukwuifiorah" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </section>
 
       {/* ===== FOOTER ===== */}
