@@ -33,6 +33,7 @@ function App() {
         <h2>Projects</h2>
 
         {/* Project 1: Afrobeats Recommender */}
+        {/* Project 1: Afrobeats Recommender */}
         <div className="project-card">
           <h3>🎵 Afrobeats Recommender</h3>
           <p>
@@ -42,7 +43,7 @@ function App() {
           <p><strong>Tech:</strong> React, Flask, Groq API, Python, REST APIs, CSS</p>
           <div className="project-links">
             <a href="https://github.com/itsmakky/AfrobeatsRecommender" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <span className="coming-soon">Live Demo (Coming Soon)</span>
+            <a href="https://afrobeats-recommender.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
 
